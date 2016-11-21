@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ppp.xcscheme</key>
+		<key>Pods-Pow.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>24F42DEA70996F69539269501F783825</key>
+		<key>150C243C727DE488CAAB068DA269D36E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C1B510D40536FCCFF2A7CCA742F5118A</key>
+		<key>5B3664B001F4BDCFFD4140BFD928CA86</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F7DCB5231CDAA14591D022F9A7F57602</key>
+		<key>C589478C0B6573BEDA9C3F758FE6002A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
