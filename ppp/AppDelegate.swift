@@ -38,7 +38,7 @@ func powww() {
   opacityAnimation.toValue = 0
 
   let group = CAAnimationGroup()
-  group.duration = 1
+  group.duration = 0.5
   group.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
   group.fillMode = kCAFillModeForwards
   group.isRemovedOnCompletion = false
@@ -61,7 +61,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
   @IBOutlet weak var sv: MASShortcutView!
 
   func massPow() {
-    for i in 0...50 {
+    for i in 0..<1 {
       let ti: DispatchTime = .now() + .milliseconds(i * 100)
       DispatchQueue.main.asyncAfter(deadline: ti, qos: DispatchQoS.userInteractive, flags: [], execute: powww)
     }
